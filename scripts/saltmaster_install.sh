@@ -111,6 +111,10 @@ keystone.region_name: '$keystone_region_name$'
 pnda.apps_container: '$pnda_apps_container$'
 pnda.apps_folder: '$pnda_apps_folder$'
 pnda.archive_container: '$pnda_archive_container$'
+
+spark_metrics:
+  spark_metrics_sink_ip: '$SPARK_METRICS_SINK_IP'
+  spark_metrics_port: '$SPARK_METRICS_PORT'
 EOF
 
 MINE_FUNCTIONS_NETWORK_INTERFACE="eth0"
